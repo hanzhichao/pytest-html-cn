@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="220" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="12">
+            <item index="0" class="java.lang.String" itemvalue="coverage" />
+            <item index="1" class="java.lang.String" itemvalue="protobuf" />
+            <item index="2" class="java.lang.String" itemvalue="autopep8" />
+            <item index="3" class="java.lang.String" itemvalue="twine" />
+            <item index="4" class="java.lang.String" itemvalue="black" />
+            <item index="5" class="java.lang.String" itemvalue="flack8" />
+            <item index="6" class="java.lang.String" itemvalue="grpcio-tools" />
+            <item index="7" class="java.lang.String" itemvalue="pytest-ini" />
+            <item index="8" class="java.lang.String" itemvalue="hostz" />
+            <item index="9" class="java.lang.String" itemvalue="pytest" />
+            <item index="10" class="java.lang.String" itemvalue="pytest-timeout" />
+            <item index="11" class="java.lang.String" itemvalue="allure-pytest" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
